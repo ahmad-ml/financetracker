@@ -48,26 +48,3 @@ I'm a Leader
 
 https://github.com/ahmad-ml
 
-## Lessons Learned
-
-While building this project, I learned several things:
-
-React component structure: I gained a better understanding of how to organize and structure components in a React application. I created three separate components: Header, Content, and Footer, to encapsulate different parts of the application.
-
-Component communication: I learned how to pass data between components using props. I passed the title prop from the App component to the Header component, allowing the Header to display the title.
-
-State management: I utilized React's state to manage the text entered in the text area. The Content component had a state variable that stored the entered text, and a button click triggered a function to update the state with the text from the text area. This allowed the entered text to be displayed below the button.
-
-Event handling: I learned how to handle button click events in React. When the button was clicked, a function was called to update the state variable with the text from the text area.
-
-Challenges faced and how I overcame them:
-
-Setting up the project: Initially, setting up the React project using Create React App or any other method can be a challenge if you are new to React development. However, there are detailed instructions and tutorials available online that guide you through the setup process.
-
-Passing props: Passing props between components correctly can be a bit tricky, especially when dealing with multiple components. To overcome this challenge, I carefully defined the prop types and made sure to pass the props correctly from the parent component to the child components.
-
-State management: Managing state in React requires understanding the concepts of state and props. Initially, I had to ensure that I set up the state correctly in the Content component and updated it with the text from the text area. By referring to React documentation and examples, I was able to overcome this challenge.
-
-Event handling: Handling button click events and triggering the corresponding function can be challenging if you are new to React. To overcome this, I studied the React documentation and learned about event handling in React. I then implemented the necessary event handling code to ensure the button click triggered the desired function.
-
-Overall, building this project helped me strengthen my understanding of React concepts, such as component structure, props, state management, and event handling. It also taught me the importance of referring to documentation and seeking out examples and tutorials when facing challenges.
